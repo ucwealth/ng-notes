@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class TodoComponent implements OnInit {
 public name = "Uche";
 public siteUrl = window.location.href;
+public myId = "todoId";
+public isDisabled = true;
+public successClass = "text-success";
   constructor() { }
 
   ngOnInit() {

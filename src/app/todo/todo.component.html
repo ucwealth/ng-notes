@@ -1,3 +1,10 @@
 <p>Hello {{name}}</p>
 <h4>{{greetUser()}}</h4>
 <h5>The address of this site is {{siteUrl}}</h5>
+
+<input bind-disabled=isDisabled type="text" value="Wealth" [id]="myId" >
+<input [disabled]=isDisabled type="text" value="Uche" id={{myId}} >
+
+<h2 class="text-success">I'm blessed!</h2>
+<h2 [class]=successClass>I'm blessed!</h2>
+<h2>I'm blessed!</h2>
